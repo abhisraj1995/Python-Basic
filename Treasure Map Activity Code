@@ -1,0 +1,17 @@
+r1=['o','o','o']
+r2=['o','o','o']
+r3=['o','o','o']
+
+map=[r1,r2,r3]
+print(map)
+print(f'{r1}\n{r2}\n{r3}')
+
+a=input('Enter the position : ')
+
+horizontal=int(a[0])
+vertical=int(a[1])
+
+s=map[vertical-1]
+s[horizontal-1]='X'
+
+print(f'{r1}\n{r2}\n{r3}')
