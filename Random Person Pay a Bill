@@ -1,0 +1,21 @@
+
+Random Person Pay a Bill
+This is a Python program that randomly selects a person from a list and assigns them the 
+task of paying a bill. It provides a fun way to decide who should take on the responsibility
+of paying for a meal, outing, or any shared expense.
+
+
+
+
+
+import random
+
+name=input('Can u give me a name of all the person after that i will decide who gonna pay a bill:- ')
+
+names=name.split(',')
+
+type(print(names))
+
+x=random.randint(0,len(names)-1)
+
+print(x,names[x])
