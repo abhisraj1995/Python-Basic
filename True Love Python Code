@@ -1,0 +1,14 @@
+# User to enter his and her name
+name1 = input("Enter your name: ")
+name2 = input("Enter their name: ")
+
+# Concatenate the two names and convert to lowercase
+combined_names = (name1 + name2).lower()
+
+# Count the number of occurrences of the letters in "true" and "love"
+true_count = combined_names.count("t") + combined_names.count("r") + combined_names.count("u") + combined_names.count("e")
+love_count = combined_names.count("l") + combined_names.count("o") + combined_names.count("v") + combined_names.count("e")
+
+# Combine the true and love counts and output the result
+total_count = str(true_count) + str(love_count)
+print("Total: " + total_count)
